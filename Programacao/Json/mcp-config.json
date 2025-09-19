@@ -1,0 +1,20 @@
+{
+  "client": {
+    "name": "chatbot-client",
+    "version": "1.0"
+  },
+  "mcpServers": {
+    "mindsdb": {
+      "url": "http://127.0.0.1:47337/sse"
+    },
+    "newsapi": {
+      "url": "https://newsapi.org/v2",
+      "type": "rest",
+      "auth": {
+        "type": "header",
+        "key": "X-Api-Key",
+        "value": "6960b6efaed24396aff9bb8d539dfda3"
+      }
+    }
+  }
+}
